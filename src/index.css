@@ -1,0 +1,15 @@
+.completed {
+    background-color: green;
+    color: white;
+}
+
+.backlog {
+    background-color: red;
+    color: white;
+}
+
+.in_progress {
+    background-color: blue;
+    color: white;
+
+}

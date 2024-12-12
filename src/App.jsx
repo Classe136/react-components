@@ -1,5 +1,14 @@
+import tasks from "./data/tasks.js";
+import Header from "./components/Header.jsx";
+import Main from "./components/Main.jsx";
 function App() {
-  return <h1>Hello world !</h1>;
+  const taskList = [...tasks];
+  return (
+    <>
+      <Header />
+      <Main tasks={taskList} />
+    </>
+  );
 }
 
 export default App;
